@@ -1,0 +1,63 @@
+.card
+{
+  height: 80vh;
+  /* margin: 25px;
+  padding: 25px; */
+  border: 2px solid ;
+  background-color: aliceblue;
+}
+h4{
+  margin: auto;
+}
+.btn
+{
+  width: 80px;
+  margin: auto;
+  padding: 20px;
+}
+.container
+{
+
+}
+.two-buttons
+{
+  display: flex;
+  justify-content: space-between;
+  width: 22%;
+  margin: 40px auto;
+  padding-top: 80px;
+
+
+}
+.two-buttons button{
+  font-size: 18px;
+  font-family: sans-serif;
+  padding: 10px 45px;
+  border-radius: 15px;
+  border: 2px solid black;
+}
+#first
+{
+  background-color: rgb(125, 133, 141);
+
+}
+#second
+{
+  background-color: rgb(142, 107, 107);
+}
+#first:hover{
+  opacity: 85px;
+  color: #fff;
+}
+#second:hover{
+  background-color: rgb(71, 111, 146);
+  color: #fff;
+}
+p{
+  margin-left: 41%;
+  font-size: 60px;
+}
+p:hover{
+  color: blue;
+
+}
